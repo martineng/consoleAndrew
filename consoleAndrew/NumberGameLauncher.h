@@ -20,5 +20,8 @@ public:
 	void printQuiz();
 	int binarySearch(int);
 	
-
+	void runNumberGame();
+	int promptGuess();
+	bool isAnswer(int);
+	bool isAllCorrect();
 };
